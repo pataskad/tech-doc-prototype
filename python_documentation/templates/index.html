@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technical Documentation Page</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static '/css/style.css' %}">
+    </head>
+        
+    <body>
+        <nav id="navbar">
+            <header>Python Docs</header>
+            <ul>
+                <li><a href="#getting-started" class="nav-link">Getting Started</a></li>
+                <li><a href="#install-python" class="nav-link">Installing Python</a></li>
+                <li><a href="#hello_world" class="nav-link">Hello world</a></li>
+                <li><a href="#usage" class="nav-link">Web Development Usage</a></li>
+                <li><a href="#testing" class="nav-link">Testing with Python</a></li>
+            </ul>
+        </nav>
+
+
+        <main id="main-doc"> <!--Minimum of 5 sections required **-->
+            <section id="getting-started">
+                <header>Getting Started</header>
+            </section>
+            <section id="install-python">
+                <header>Installing Python</header>
+            </section>
+            <section id="hello_world">
+                <header>Hello World</header>
+            </section>
+            <section id="usage">
+                <header>Web Development Usage</header>
+            </section>
+            <section id="testing">
+                <header>Testing with Python</header>
+            </section>
+        </main>
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+    </body>
+</html>
